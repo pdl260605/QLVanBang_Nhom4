@@ -1,5 +1,20 @@
 # 🎓 QLVanBang_Nhom4 – Hệ thống Quản lý Văn bằng Chứng chỉ
 
+## Hướng dẫn clone bằng Visual studio
+- Mở Visual studio chọn clone Repo
+![alt text](image.png)
+
+- Parse link repo vào Repository location và ần clone
+![alt text](image-1.png)
+
+- Mở thư mục đã clone về chạy file SQLVANBANG.sql
+![alt text](image-2.png)
+
+- Copy server name khi chạy kết nối local database
+![alt text](image-3.png)
+
+- Dán server name thay thế cho đoạn chuỗi này trong file DBConection.cs -> bấm lưu và F5 để chạy 
+![alt text](image-4.png)
 ## 📌 Giới thiệu
 
 QLVanBang_Nhom4 là ứng dụng **Windows Forms (.NET Framework)** dùng để quản lý:

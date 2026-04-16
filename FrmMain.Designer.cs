@@ -27,6 +27,8 @@
             this.btnYeuCauCapLai = new System.Windows.Forms.Button();
             this.btnLichSuChinhSua = new System.Windows.Forms.Button();
             this.btnNguoiDung = new System.Windows.Forms.Button();
+            this.btnLichSuHocTap = new System.Windows.Forms.Button();
+            this.btnYeuCauChinhSua = new System.Windows.Forms.Button();
             this.pnlBottom = new System.Windows.Forms.Panel();
             this.lblNguoiDung = new System.Windows.Forms.Label();
             this.lblVaiTro = new System.Windows.Forms.Label();
@@ -79,6 +81,8 @@
             this.pnlNav.Controls.Add(this.btnVanBang);
             this.pnlNav.Controls.Add(this.btnSinhVien);
             this.pnlNav.Controls.Add(this.btnDashboard);
+            this.pnlNav.Controls.Add(this.btnLichSuHocTap);
+            this.pnlNav.Controls.Add(this.btnYeuCauChinhSua);
 
             // Helper để tạo nav button
             SetupNavButton(this.btnDashboard, "🏠  Tổng quan", 0);
@@ -89,6 +93,8 @@
             SetupNavButton(this.btnYeuCauCapLai, "📝  Yêu cầu cấp lại", 5);
             SetupNavButton(this.btnLichSuChinhSua, "🕐  Lịch sử chỉnh sửa", 6);
             SetupNavButton(this.btnNguoiDung, "⚙  Người dùng", 7);
+            SetupNavButton(this.btnLichSuHocTap, "📚  Lịch sử học tập", 8);
+            SetupNavButton(this.btnYeuCauChinhSua, "📝  Yêu cầu chỉnh sửa", 9);
 
             this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             this.btnSinhVien.Click += new System.EventHandler(this.btnSinhVien_Click);
@@ -98,6 +104,8 @@
             this.btnYeuCauCapLai.Click += new System.EventHandler(this.btnYeuCauCapLai_Click);
             this.btnLichSuChinhSua.Click += new System.EventHandler(this.btnLichSuChinhSua_Click);
             this.btnNguoiDung.Click += new System.EventHandler(this.btnNguoiDung_Click);
+            this.btnLichSuHocTap.Click += new System.EventHandler(this.btnLichSuHocTap_Click);
+            this.btnYeuCauChinhSua.Click += new System.EventHandler(this.btnYeuCauChinhSua_Click);
 
             // ── pnlBottom ─────────────────────────────────────────────────
             this.pnlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -170,6 +178,8 @@
         private System.Windows.Forms.Button btnYeuCauCapLai;
         private System.Windows.Forms.Button btnLichSuChinhSua;
         private System.Windows.Forms.Button btnNguoiDung;
+        private System.Windows.Forms.Button btnLichSuHocTap;
+        private System.Windows.Forms.Button btnYeuCauChinhSua;
         private System.Windows.Forms.Panel pnlBottom;
         private System.Windows.Forms.Label lblNguoiDung;
         private System.Windows.Forms.Label lblVaiTro;

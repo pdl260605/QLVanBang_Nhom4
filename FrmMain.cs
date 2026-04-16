@@ -99,6 +99,11 @@ namespace QLVanBang_Nhom4
 
         private void btnNguoiDung_Click(object sender, EventArgs e)
             => OpenChildForm(new FrmNguoiDung(), btnNguoiDung);
+        private void btnLichSuHocTap_Click(object sender, EventArgs e)
+            => OpenChildForm(new FrmLichSuHocTap(), btnLichSuHocTap);
+
+        private void btnYeuCauChinhSua_Click(object sender, EventArgs e)
+            => OpenChildForm(new FrmYeuCauChinhSua(), btnYeuCauChinhSua);
 
         // ==============================
         // ĐĂNG XUẤT

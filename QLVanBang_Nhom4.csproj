@@ -69,6 +69,12 @@
     <Compile Include="FrmLichSuChinhSua.Designer.cs">
       <DependentUpon>FrmLichSuChinhSua.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmLichSuHocTapcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLichSuHocTapcs.Designer.cs">
+      <DependentUpon>FrmLichSuHocTapcs.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,12 @@
     <Compile Include="FrmYeuCauCapLai.Designer.cs">
       <DependentUpon>FrmYeuCauCapLai.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmYeuCauChinhSua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYeuCauChinhSua.Designer.cs">
+      <DependentUpon>FrmYeuCauChinhSua.cs</DependentUpon>
+    </Compile>
     <Compile Include="NguoiDungHienTai.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -125,6 +137,9 @@
       <DependentUpon>QLVANBANG_NHOM4DataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="UIHelper.cs" />
+    <EmbeddedResource Include="FrmLichSuChinhSua.resx">
+      <DependentUpon>FrmLichSuChinhSua.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>

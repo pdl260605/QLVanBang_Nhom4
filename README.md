@@ -60,7 +60,7 @@ QLVanBang_Nhom4/
 ### Bước 2: Chạy file SQL
 
 * Mở file:
-  QLVanBang.sql
+  SQLVanBang.sql
 
 * Nhấn **Execute**
 

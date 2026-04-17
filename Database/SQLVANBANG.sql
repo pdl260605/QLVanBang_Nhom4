@@ -232,3 +232,27 @@ SELECT * FROM SV
 SELECT * FROM VB
 GO
 
+
+-- create view
+IF OBJECT_ID('V_ReportVanBang','V') IS NOT NULL DROP VIEW V_ReportVanBang
+GO
+CREATE VIEW V_ReportVanBang AS
+SELECT 
+    VB.SoHieuVB,
+    SV.MaSV,
+    SV.HoTen,
+    SV.NgaySinh,
+    NGANHHOC.TenNH,
+    VB.TenVB,
+    VB.XepLoaiVB,
+    VB.CapDo,
+    VB.NgayCap,
+    DONVICAP.TenDV,
+    VB.TrangThai
+FROM VB
+JOIN SV ON VB.MaSV = SV.MaSV
+JOIN NGANHHOC ON VB.MaNH = NGANHHOC.MaNH
+JOIN DONVICAP ON VB.MaDV = DONVICAP.MaDV
+GO
+
+select * from V_ReportVanBang

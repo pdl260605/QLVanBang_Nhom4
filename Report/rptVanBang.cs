@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace QLVanBang_Nhom4 {
+namespace QLVanBang_Nhom4.Report {
     using System;
     using System.ComponentModel;
     using CrystalDecisions.Shared;
@@ -41,7 +41,7 @@ namespace QLVanBang_Nhom4 {
         
         public override string FullResourceName {
             get {
-                return "QLVanBang_Nhom4.rptVanBang.rpt";
+                return "QLVanBang_Nhom4.Report.rptVanBang.rpt";
             }
             set {
                 // Do nothing
